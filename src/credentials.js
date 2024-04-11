@@ -13,7 +13,7 @@ const credentialsFilePath = path.resolve(__dirname, "../credentials.json");
 /** @type {Credentials} */
 const defaultCredentials = {
   hypixel_api_key: "",
-  dbUrl: "mongodb://localhost:27017",
+  dbUrl: "mongodb+srv://vaibhgamer999:sonigamerche@vaibhgamer999.c7e1vxc.mongodb.net/?retryWrites=true&w=majority",
   dbName: "sbstats",
   redisUrl: "redis://localhost:6379",
   get session_secret() {
